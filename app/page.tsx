@@ -4,18 +4,11 @@ import CompanionCard from '@/components/CompanionCard'
 import CompanionsList from '@/components/CompanionsList'
 import CTA from '@/components/CTA'
 import { recentSessions } from '@/constants'
-import { useUser } from '@clerk/nextjs'
-import { useRouter } from 'next/navigation'
+
 
 import React from 'react'
 
 const Page = () => {
-  const { isSignedIn } = useUser()
-  const router = useRouter()
-
-  if (!isSignedIn) {
-    router.push('/sign-in')
-  }
   return (
     <main className='py-9'>
       <h1>Popular Companions</h1>
