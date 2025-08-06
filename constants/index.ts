@@ -1,6 +1,7 @@
 export const subjects = [
   "maths",
   "language",
+  "statistics",
   "science",
   "history",
   "coding",
@@ -10,6 +11,7 @@ export const subjects = [
 export const subjectsColors = {
   science: "#E5D0FF",
   maths: "#FFDA6E",
+  statistics: '#FFDA8E',
   language: "#BDE7FF",
   coding: "#FFC8E4",
   history: "#FFECC8",
