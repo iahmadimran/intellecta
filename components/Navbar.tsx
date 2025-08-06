@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import NavItems from "./NavItems"
-import { SignedIn, SignedOut, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs"
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs"
 
 const Navbar = () => {
   return (
@@ -9,10 +9,10 @@ const Navbar = () => {
       <Link href={'/'}>
         <div className="flex items-center gap-2.5 cursor-pointer">
           <Image
-            src={'/images/logo.svg'}
+            src={'/images/logo.png'}
             alt="logo"
-            width={44}
-            height={44}
+            width={130}
+            height={50}
           />
         </div>
       </Link>
