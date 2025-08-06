@@ -16,7 +16,7 @@ const CTA = () => {
         height={232}
       />
       <Link href={'/companions/new'} className="w-full">
-        <button className="btn-primary flex justify-center items-center w-full bg-red-600">
+        <button className="btn-primary flex justify-center items-center w-full bg-[#FE5933]">
           <Image
             src={'/icons/plus.svg'}
             alt="plus"

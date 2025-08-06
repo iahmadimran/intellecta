@@ -1,7 +1,6 @@
 import {
   Table,
   TableBody,
-  TableCaption,
   TableCell,
   TableHead,
   TableHeader,
@@ -14,7 +13,7 @@ import Link from "next/link"
 const CompanionsList = ({ title, companions, classNames }: CompanionsListProps) => {
   return (
     <article className={cn('companion-list', classNames)}>
-      <h2 className="font-bold text-2xl">Recent Sessions</h2>
+      <h2 className="font-bold text-2xl">{title}</h2>
 
       <Table>
         <TableHeader>
