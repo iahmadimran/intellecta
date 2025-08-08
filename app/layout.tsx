@@ -4,10 +4,12 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { ClerkProvider } from "@clerk/nextjs";
 
+export const dynamic = 'force-dynamic';
 const bricolage = Bricolage_Grotesque({
   variable: "--font-bricolage",
   subsets: ["latin"],
 });
+
 
 export const metadata: Metadata = {
   title: "Intellecta - Your Personalized Teaching Platform",
