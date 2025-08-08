@@ -20,7 +20,7 @@ const Navbar = () => {
         } transition-transform duration-300 ease-in-out md:hidden`}
       >
         <div className="flex justify-between items-center p-4 border-b">
-          <h2 className="text-lg font-bold">Intellecta</h2>
+          <h2 className="text-lg font-bold">Intellecta - AI-Powered Teaching Assisstant</h2>
           <Button
             variant="ghost"
             size="sm"
